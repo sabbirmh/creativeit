@@ -1,0 +1,211 @@
+// ====  Logo Part Start ======================//
+#logo_part {
+    padding: 30px 0 30px;
+
+    .container {
+        .logo_left {
+            margin-left: 35px;
+
+            h1 {
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 60px;
+                line-height: 72px;
+                color: #F04E4C;
+
+            }
+
+            p {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 150%;
+                color: #414042;
+                margin-top: 30px;
+
+                span {
+                    display: block;
+                }
+            }
+
+            .submit {
+                margin-top: 70px;
+            }
+
+
+            .link {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 30px;
+                color: #4978BC;
+                transition: all linear .3s;
+
+                &:hover {
+                    color: #252C6D;
+                }
+
+            }
+
+            .link--arrowed {
+                display: inline-block;
+                height: 2rem;
+                line-height: 2rem;
+            }
+
+            .link--arrowed .arrow-icon {
+                position: relative;
+                top: -1px;
+                transition: transform 0.3s ease;
+                vertical-align: middle;
+            }
+
+            .link--arrowed .arrow-icon--circle {
+                transition: stroke-dashoffset 0.3s ease;
+                stroke-dasharray: 95;
+                stroke-dashoffset: 95;
+            }
+
+            .link--arrowed:hover .arrow-icon {
+                transform: translate3d(5px, 0, 0);
+            }
+
+            .link--arrowed:hover .arrow-icon--circle {
+                stroke-dashoffset: 0;
+            }
+
+            .shap_image {
+                position: relative;
+                width: 220px;
+
+                img {
+                    position: absolute;
+                    left: -70px;
+                    top: -162px;
+                    -webkit-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    height: 680px;
+                }
+            }
+        }
+        .row_left{
+            margin-left: 62px;
+        }
+     
+
+        .logo_right {
+            width: 170px;
+            height: 100px;
+            background: #FFFFFF;
+            border: 1px solid #E6E7E8;
+            box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.04);
+            border-radius: 20px;
+            line-height: 100px;
+            text-align: center;
+            cursor: pointer;
+            transition: all linear .3s;
+            margin: 0 15px;
+            
+
+            img {
+                width: 100px;
+            }
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            .logo_image {
+                position: relative;
+                left: 39px;
+                width: 85px;
+            }
+
+            .logo_image_o {
+                position: relative;
+                left: 23px;
+                width: 120px;
+            }
+
+            .logo_image_tw {
+                position: relative;
+                left: 23px;
+                width: 122px;
+            }
+
+            .logo_image_th {
+                position: relative;
+                left: 29px;
+                width: 108px;
+            }
+
+            .logo_image_fr {
+                position: relative;
+                left: 25px;
+                width: 115px;
+            }
+
+            .logo_image_fv {
+                position: relative;
+                left: 33px;
+                width: 103px;
+            }
+
+            .logo_image_sx {
+                position: relative;
+                left: 27px;
+                width: 110px;
+            }
+
+            .logo_image_svn {
+                position: relative;
+                left: 23px;
+                width: 120px;
+            }
+
+            .logo_image_eght {
+                position: relative;
+                left: 23px;
+                width: 114px;
+            }
+
+            .logo_image_nn {
+                position: relative;
+                left: 25px;
+                width: 114px;
+            }
+
+            .logo_image_tn {
+                position: relative;
+                left: 35px;
+                width: 96px;
+            }
+
+            .logo_image_elv {
+                position: relative;
+                left: 29px;
+                width: 106px;
+            }
+
+        }
+
+        .break {
+            margin-top: 35px;
+        }
+
+        // .one {
+        //     position: relative;
+        //     left: 30px;
+        // }
+
+        // .two {
+        //     position: relative;
+        //     left: 20px;
+        // }
+
+    }
+}
+
+// ====  Logo Part Start ======================//

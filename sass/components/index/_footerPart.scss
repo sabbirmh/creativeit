@@ -1,0 +1,223 @@
+// ====  Footer  Part Start ======================//
+
+// ====================== Footer Part ====================== //
+
+#footer_part {
+    padding: 60px 0 40px;
+    background: #E6E7E8;
+
+    .container {
+
+        .footer_info {
+
+            .head_foot {
+                h3 {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 140%;
+                    color: #F04E4C;
+                }
+            }
+
+
+            h4 {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 140%;
+                color: #414042;
+                margin-top: 20px;
+
+            }
+
+            p {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 140%;
+                color: #414042;
+                margin-top: 15px;
+
+                span {
+                    display: block;
+                }
+            }
+
+
+        }
+
+        .types {
+
+            .head {
+                h3 {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 140%;
+                    color: #F04E4C;
+                }
+            }
+
+            ul {
+                margin-top: 24px;
+
+                li {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 140%;
+                    color: #414042;
+                    margin: 17px 0;
+                    cursor: pointer;
+                    transition: all linear .3s;
+
+                    &:hover {
+                        transform: translateX(2px);
+                        color: #F04E4C;
+                    }
+                }
+            }
+        }
+
+        .footer_last {
+            .head {
+                h3 {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 140%;
+                    color: #F04E4C;
+
+                    position: relative;
+
+                    &::after {
+                        position: absolute;
+                        content: '';
+                        left: 0;
+                        bottom: -15px;
+                        width: 300px;
+                        height: 1px;
+                        background-color: #252C6D;
+                    }
+                }
+
+                a {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 17px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                    padding: 10px 25px;
+                    background: #F04E4C;
+                    position: relative;
+                    left: 372px;
+                    top: -6px;
+                    transform: translate(-50%, -50%);
+                    transition: all linear .3s;
+
+                    &:hover{
+                        background: #252C6D;
+                    }
+                }
+            }
+
+            .check {
+
+                margin-top: 10px;
+
+                input {
+                    border: 1px solid #F04E4C;
+                }
+
+                label {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 150%;
+                    color: #414042;
+
+                    span {
+                        display: block;
+                        margin-left: 18px;
+                    }
+                }
+
+
+            }
+
+            .address {
+                margin-top: 30px;
+
+                h4 {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 140%;
+                    color: #252C6D;
+                }
+            }
+
+            .social {
+                display: flex;
+                margin-top: 8px;
+
+                p {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 140%;
+                    color: #252C6D;
+                }
+
+                ul {
+                    display: flex;
+                    margin-left: 5;
+
+                    li {
+                        margin: 0 10px;
+                        color: #FCFBFF;
+                        cursor: pointer;
+                        width: 30px;
+                        height: 30px;
+                        line-height: 30px;
+                        text-align: center;
+                        border-radius: 50%;
+                        background: #4978BC;
+                        transition: all linear.3s;
+
+                        &:hover {
+                            background: #F04E4C;
+                        }
+                    }
+                }
+            }
+        }
+
+        .last {
+            margin-top: 20px;
+            p {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 150%;
+                color: #414042;
+            }
+        }
+    }
+}
+
+// ====================== Footer Part ====================== //
+
+
+// ====  Footer  Part End ======================//

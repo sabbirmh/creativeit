@@ -1,0 +1,123 @@
+// ====  Chairman Part Start ======================//
+
+#chairman {
+    padding: 60px 0 0;
+
+    .container {
+
+        .chairman_image {
+            position: relative;
+            width: 477px;
+
+            img {
+                height: 500px;
+            }
+        }
+
+        .prv_arr {
+            position: relative;
+            top: 200px;
+            z-index: 1;
+            left: 92.5%;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        .next_arr {
+            position: relative;
+            bottom: 324px;
+            left: 98%;
+            z-index: 1;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+
+        .chairman_info {
+            margin-top: 50px;
+            margin-left: 20px;
+
+            p {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 150%;
+                color: #414042;
+
+                span {
+                    display: block;
+                }
+            }
+
+            h3 {
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 140%;
+                color: #4978BC;
+                margin-top: 30px;
+            }
+
+            h6 {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 140%;
+                color: #F04E4C;
+            }
+        }
+
+        .chr_shape {
+            position: relative;
+            width: 70px;
+
+            img {
+                position: absolute;
+                left: -51px;
+                top: -393px;
+                -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        .drag {
+
+            position: relative;
+
+            .drag_text {
+                position: absolute;
+                top: -337px;
+                left: 93%;
+                transform: translateY(-50%);
+                cursor: pointer;
+
+                p {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    text-transform: uppercase;
+                    color: #ffff;
+                    width: 110px;
+                    height: 106px;
+                    border-radius: 50%;
+                    background: rgba(73, 120, 188, 0.7);
+                    text-align: center;
+                    line-height: 103px;
+                    border: 2px solid #FFFFFF;
+                    backdrop-filter: blur(5px);
+                    z-index: -1;
+                    margin-left: -1px;
+                }
+            }
+
+        }
+    }
+}
+
+
+// ====  Chairman Part End ======================//

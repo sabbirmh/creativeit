@@ -1,0 +1,84 @@
+// ====  ISO Part Start ======================//
+#iso_part {
+    // background: #252C6D;
+    // position: relative;
+    // top: -31px;
+
+    .iso_back {
+        position: relative;
+        height: 513px;
+        width: 100%;
+        background: #252C6D;
+        top: -54px;
+
+        .container {
+            .iso_left {
+                position: relative;
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    left: -66px;
+                    bottom: 7px;
+                    width: 375px;
+                    height: 6px;
+                    background: #fff;
+                    -webkit-clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+                    clip-path: polygon(0 0, 99% -42%, 100% 100%, 0% 100%);
+
+                }
+            }
+
+            .iso_left_image {
+                position: relative;
+                width: 621px;
+                left: 245px;
+                transform: translateX(-50%);
+
+                img {
+                    height: 526px;
+                }
+            }
+
+            .iso_logo {
+                position: relative;
+                width: 95px;
+
+                img {
+                    position: absolute;
+                    left: 121px;
+                    top: -165px;
+                    -webkit-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+
+            .iso_right {
+                .iso_right_content {
+                    margin-top: 70px;
+
+                    h3 {
+                        font-family: 'Inter', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 140%;
+                        color: #FFFFFF;
+
+                        span {
+                            display: block;
+                            margin-top: 50px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+
+
+// ====  ISO Part End ======================//

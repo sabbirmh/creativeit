@@ -1,0 +1,125 @@
+#footer_part {
+  padding: 30px 0 40px;
+  background: #244D4D;
+}
+
+#footer_part .container {
+  position: relative;
+}
+
+#footer_part .container::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 273px;
+  height: 1px;
+  width: 100%;
+  background: #FCFBFF;
+}
+
+#footer_part .container .footer_head h2 {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+#footer_part .container .submit a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  color: #244D4D;
+  padding: 12px 30px;
+  background: #FCFBFF;
+  border-radius: 20px;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  margin: 0 5px;
+}
+
+#footer_part .container .submit a:hover {
+  background: #3A5F5F;
+  color: #FCFBFF;
+}
+
+#footer_part .container .footer_row {
+  margin-top: 130PX;
+}
+
+#footer_part .container .footer_logo a {
+  font-family: 'Noto Serif JP';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 37px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+
+#footer_part .container .footer_logo p {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  color: #EEEEEE;
+  margin-top: 20px;
+}
+
+#footer_part .container .footer_logo p span {
+  display: block;
+}
+
+#footer_part .container .footer_logo .social {
+  margin-top: 20px;
+}
+
+#footer_part .container .footer_logo .social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -14px;
+}
+
+#footer_part .container .footer_logo .social ul li {
+  margin: 0 10px;
+  color: #FCFBFF;
+  cursor: pointer;
+}
+
+#footer_part .container .types .head h4 {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+#footer_part .container .types ul {
+  margin-top: 12px;
+}
+
+#footer_part .container .types ul li {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #EEEEEE;
+  margin: 6px 0;
+  cursor: pointer;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#footer_part .container .types ul li:hover {
+  -webkit-transform: translateX(2px);
+          transform: translateX(2px);
+}
+/*# sourceMappingURL=footerPart.css.map */

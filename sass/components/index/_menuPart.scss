@@ -1,0 +1,71 @@
+// ====  Menu Part Start ======================//
+
+.mobile_menu_button {
+    display: none;
+}
+
+.main_menu {
+
+    height: 80px;
+
+    .navbar-brand {
+        width: 130px;
+    }
+
+    .container {
+
+        .menu_item {
+            ul {
+                position: relative;
+                right: 36px;
+                li {
+                    position: relative;
+                    margin: 0 5px;
+                    transition: all linear .3s;
+
+                    a {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 19px;
+                        color: #4978BC;
+                        font-family: 'Inter', sans-serif;
+                        position: relative;
+
+                        &:after {
+                            position: absolute;
+                            content: '';
+                            left: 0;
+                            bottom: 0;
+                            width: 0;
+                            height: 2px;
+                            background: #252C6D;
+                            transition: all linear .3s;
+                        }
+
+                        &:hover {
+
+                            color: #252C6D;
+
+                            &::after {
+                                width: 100%;
+                            }
+                        }
+
+                    }
+
+                }
+
+                .current {
+                    a {
+                        color: #252C6D;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+// ====  Menu Part End ======================//

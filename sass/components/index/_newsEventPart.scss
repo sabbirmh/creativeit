@@ -1,0 +1,117 @@
+// ====  News & Event  Part Start ======================//
+
+#news_event {
+    padding-bottom: 50px;
+
+    .container {
+        .head {
+            h3 {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 60px;
+                line-height: 72px;
+                text-align: center;
+                color: #F04E4C;
+                font-family: 'Inter', sans-serif;
+            }
+
+            p {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 150%;
+                text-align: center;
+                color: #414042;
+                margin-top: 10px;
+
+                span {
+                    display: block;
+                }
+            }
+        }
+
+        .news_event_image {
+
+            margin-top: 50px;
+            position: relative;
+            width: 558px;
+            transition: all linear .3s;
+
+            img {
+                height: 345px;
+            }
+
+            .overley {
+                position: relative;
+                visibility: hidden;
+                opacity: 0;
+
+
+                a {
+                    position: absolute;
+                    left: 230px;
+                    top: -196px;
+                    transition: translate(-50%, -50%);
+                    color: #FFFFFF;
+
+                    width: 96.97px;
+                    height: 96.97px;
+                    line-height: 96.97px;
+                    text-align: center;
+                    background: rgba(73, 120, 188, 0.7);
+                    border: 2px solid #FFFFFF;
+                    backdrop-filter: blur(5px);
+                    border-radius: 60px;
+                    transition: all linear .3s;
+                }
+
+            }
+
+            &:hover {
+                .overley {
+                    visibility: visible;
+                    opacity: 1;
+                    transform: scale(1.1);
+
+
+                }
+
+                a {
+                    transform: scale(1.1);
+                }
+
+            }
+        }
+
+        .text {
+            margin-top: 30px;
+            p {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 140%;
+                color: #F04E4C;
+
+            }
+
+            h3{
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 140%;
+                text-transform: uppercase;
+                color: #4978BC;
+                margin-top: 8px;
+
+                span{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+// ====  News & Event  Part End ======================//

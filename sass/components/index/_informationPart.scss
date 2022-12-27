@@ -1,0 +1,47 @@
+// ====  Information Part Start ======================//
+
+#information {
+    padding-bottom: 100px;
+
+    .info_background {
+        padding: 100px 0 100px;
+        background: #252C6D;
+        margin-top: -23px;
+
+        .container {
+            .all_info {
+                display: flex;
+
+                .info_img {
+                    display: flex;
+                    width: 90px;
+                }
+
+                .info {
+                    margin-left: 20px;
+
+                    p {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 25px;
+                        line-height: 150%;
+                        color: #4978BC;
+                    }
+
+                    h3 {
+                        font-family: 'Inter', sans-serif;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 45px;
+                        line-height: 54px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+// ====  Information Part End ======================//

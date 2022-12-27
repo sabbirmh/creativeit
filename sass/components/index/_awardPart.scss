@@ -1,0 +1,158 @@
+// ====  Award Part Start ======================//
+
+#award {
+    padding-bottom: 100px;
+
+    .container {
+        .head {
+            h3 {
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 60px;
+                line-height: 72px;
+                text-align: center;
+                color: #4978BC;
+            }
+
+            p {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 150%;
+                text-align: center;
+                color: #414042;
+                margin-top: 10px;
+
+                span {
+                    display: block;
+                }
+            }
+        }
+
+        .all_award {
+            margin-top: 80px;
+
+            .award_shap {
+                width: 180px;
+            }
+
+            .award_image {
+                position: relative;
+                width: 100px;
+
+                img {
+                    position: absolute;
+                    top: -136px;
+                    left: 55px;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                }
+            }
+
+            .first_image {
+                position: relative;
+                width: 135px;
+
+                img {
+                    position: absolute;
+                    left: 43px;
+                    top: -130px;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                }
+            }
+
+            .third_image {
+                position: relative;
+                width: 50px;
+
+                img {
+                    position: absolute;
+                    left: 86px;
+                    top: -135px;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                }
+            }
+
+            .fourth_image {
+                position: relative;
+                width: 186px;
+
+                img {
+                    position: absolute;
+                    left: 18px;
+                    top: -110px;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                }
+            }
+
+            .award_info {
+                margin-top: 40px;
+
+                p {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 140%;
+                    color: #F04E4C;
+                }
+
+                h4 {
+                    font-family: 'Inter', sans-serif;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 140%;
+                    text-transform: uppercase;
+                    color: #4978BC;
+                    margin-top: 15px;
+
+                    span {
+                        display: block;
+                    }
+
+                    .span {
+                        display: block;
+                    }
+                }
+
+                .last {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 150%;
+                    color: #414042;
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .submit {
+            margin-top: 50px;
+
+            a {
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: #ffff;
+                padding: 15px 30px;
+                background: #4978BC;
+                transition: all linear .3s;
+
+                &:hover{
+                    background: #F04E4C;
+                }
+            }
+        }
+    }
+}
+
+// ====  Award Part End ======================//
